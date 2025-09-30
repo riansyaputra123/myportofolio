@@ -32,7 +32,7 @@ function App() {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#959595] mb-6">
-              Junior Data Analyst & Junior Web Developer
+              Data Analyst & Web Developer
             </p>
 
             {/* Buttons */}
