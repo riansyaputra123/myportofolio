@@ -95,7 +95,6 @@ function App() {
             <a
               href="/public/CV_Rian.pdf"
               target="_blank"
-              rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-700 px-6 py-3 rounded-2xl text-white font-medium hover:from-orange-700 hover:to-orange-500 transition-all"
             >
               <i className="ri-download-2-line mr-2"></i> Download CV
