@@ -148,7 +148,7 @@ export const listProyek = [
     nama: "MyPertamina App Sentiment Analysis",
     desk: "This project performs sentiment analysis on MyPertamina app reviews collected via web scraping. After preprocessing, the data was balanced using SMOTE and classified with KNN and Naïve Bayes for better insights",
     tools: ["Python", "Google Looker", "Excel","Spreadsheet", "Pandas", "NLTK", "Scikit-learn"],
-    link: "https://github.com/riansyaputra123/Analisis-Sentimen-Aplikasi-MyPertamina46",
+    link: "https://github.com/riansyaputra123/Analisis-Sentimen-Aplikasi-MyPertamina",
     dad: "300",
   },
   {
@@ -186,4 +186,5 @@ export const listProyek = [
   //   tools: ["NextJS", "TailwindCSS", "Framermotion"],
   //   dad: "700",
   // },
+
 ];
