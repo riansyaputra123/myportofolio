@@ -172,7 +172,7 @@ export const listProyek = [
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Xtrememuisix",
+    nama: "Xtrememusix",
     desk: "Xtrememusix is ​​a music streaming website like spotify that supports users to like songs, search for songs and create their own playlists.",
     tools: ["HTML", "CSS", "Javascript", "PHP", "MySQL"],
     link: "https://github.com/riansyaputra123/xtrememusix_2022",
@@ -188,3 +188,4 @@ export const listProyek = [
   // },
 
 ];
+
