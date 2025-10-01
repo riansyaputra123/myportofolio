@@ -45,10 +45,13 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center py-4 px-6 lg:px-12">
         {/* Logo */}
         <div className="logo">
-          <a href="#" onClick={(e) => {
-            e.preventDefault();
-            window.location.reload(); // refresh page
-            }} className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent">
+          <a href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              // Hard refresh ke halaman utama (root)
+              window.location.href = window.location.origin;
+            }}
+          className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent">
             {"</Rian's Portfolio>"}
           </a>
         </div>
@@ -119,4 +122,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
 
